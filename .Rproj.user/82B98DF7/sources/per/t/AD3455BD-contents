@@ -1,0 +1,13 @@
+---
+title: "Netflix"
+Author: "Group 1"
+output:
+  html_document: default
+  pdf_document: default
+date: 
+---
+```{r}
+library(tidyverse)
+netflix_credits <- read_csv("credits.csv")
+netflix_titles <- read_csv("titles.csv")
+```
